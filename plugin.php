@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Plugin Name: Amazon CloudFront SSL
+ * Plugin Name: Amazon CloudFront and Cloudflare SSL
  * Plugin URI: https://github.com/adampatterson/wordpress-amazon-cloudfront-ssl
  * Description: Amazon CloudFront SSL for WordPress
  * Version: 1.0.0
@@ -10,7 +10,10 @@
  * Author URI: https://www.adampatterson.ca
  */
 
-class AmazonCloudFrontSsl
+/**
+* Modified version of https://wordpress.org/plugins/cloudflare-flexible-ssl/
+*/
+class AmazonCloudFrontCloudflareSsl
 {
 
     public function run()
@@ -113,5 +116,5 @@ class AmazonCloudFrontSsl
     }
 }
 
-$amazonCheck = new AmazonCloudFrontSsl();
+$amazonCheck = new AmazonCloudFrontCloudflareSsl();
 $amazonCheck->run();
