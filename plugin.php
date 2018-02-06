@@ -3,7 +3,7 @@
 /*
  * Plugin Name: Amazon CloudFront and Cloudflare SSL
  * Plugin URI: https://github.com/adampatterson/wordpress-amazon-cloudfront-ssl
- * Description: Amazon CloudFront SSL for WordPress
+ * Description: Amazon CloudFront and Cloudflare SSL support for WordPress
  * Version: 1.0.0
  * Text Domain: amazon-cloudfront-ssl
  * Author: Adam Patterson
